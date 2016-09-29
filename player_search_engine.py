@@ -286,10 +286,10 @@ def get_last_brdate():
 	return datelist
 
 #user information needed for API requests, used in lots of functions. These should be kept secret and hidden from the user
-devid = "722"
-devkey = "IU6dmDkK9RiZ2twX"
-iv = "VD1PvRq5Cm8OPioN"
-memberid = "91675"
+devid = ""
+devkey = ""
+iv = ""
+memberid = ""
 
 #load the database_dict at the start rather than loading it every search.
 database_dict = load_database_dict()
