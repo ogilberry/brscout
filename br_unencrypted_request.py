@@ -1,11 +1,11 @@
 ##import base64
 import urllib.request
 
-#user information
-devid = "722"
-devkey = "IU6dmDkK9RiZ2twX"
-iv = "VD1PvRq5Cm8OPioN"
-memberid = "91675"
+#user information - add your own
+devid = ""
+devkey = ""
+iv = ""
+memberid = ""
 
 baseurl = "http://api.blackoutrugby.com/"
 request = "rk&start=20000" #refer to the docs, you don't need the &r= part here
